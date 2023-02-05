@@ -1,1 +1,1 @@
-<template>prova</template>
+<template>contatta un coach</template>
