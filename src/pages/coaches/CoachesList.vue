@@ -1,6 +1,6 @@
 <template>
   <section>
-    <coach-filter @change-filter="setfilters"></coach-filter>
+    <coach-filter @change-filter="setFilter"></coach-filter>
   </section>
   <section>
     <base-card>
@@ -67,7 +67,7 @@ export default {
     },
   },
   methods: {
-    setFilters(updatedFilters) {
+    setFilter(updatedFilters) {
       this.activeFilters = updatedFilters;
     },
   },
